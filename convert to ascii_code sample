@@ -1,0 +1,9 @@
+from image_to_ascii import ImageToAscii
+obj = ImageToAscii()
+# Image path
+obj.image_path("link.png")
+# print on screen
+obj.plot()
+# save in a txt file
+obj.save_to_file()
+# https://github.com/estevaofon/image-to-ascii-pyaoponto
